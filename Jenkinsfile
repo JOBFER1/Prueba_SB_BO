@@ -9,7 +9,7 @@ pipeline {
 
     stage('Build') {
       steps {
-        tool 'MAVEN_3_8_6'
+        tool 'MAVEN_3_8_6zzz'
         bat 'mvn clean package'
       }
     }
